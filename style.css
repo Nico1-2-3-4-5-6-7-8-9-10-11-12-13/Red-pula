@@ -1,0 +1,12 @@
+/*os seletores abaixo são para definir propriedades para sua pagina inteira*/
+body {
+
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 90%, rgba(0,0,0,1) 100%);
+
+}
+/*o seletor abaixo define o que vai acontecer o a ferramenta canvas que é o elemento que conterá o jogo*/
+canvas {
+/*Quando um elemento tem a propriedade display definida como block, ele é 
+renderizado como um bloco retangular que ocupa toda a largura disponível*/
+  display: block;
+}
